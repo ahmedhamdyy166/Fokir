@@ -1,0 +1,295 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ #home {
+    min-height: 100vh;
+    background-image: url(hero\ img.jpg);
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+ .coloring {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.695);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+} 
+
+ .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.695);;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.logo {
+    font-size: 25px;
+    
+padding-right: 30px;
+    cursor: pointer;
+}
+
+.logo p::first-line {
+    color: rgba(255, 0, 0, 0.793);
+}
+.linking{
+    padding-left: 60px;
+}
+.links {
+
+     padding-left: 30px;
+    
+}
+
+.links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding-left:30px;
+}
+
+.links ul li {
+
+    margin-right: 15px;
+    padding-left: 30px;
+
+}
+
+.links ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: 1s;
+   
+}
+
+
+
+.linking ul li a:hover {
+    background-color: rgba(255, 0, 0, 0.415);
+    color: #fff; /
+    
+}
+
+
+.content {
+
+
+}
+
+.content p {
+    color: #fff;
+    font-size: 40px;
+    
+}
+
+.content h1 {
+    color: rgba(255, 0, 0, 0.793);
+    
+}
+#about{
+    padding: 50px;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-img{
+    width: 50%;
+    overflow: hidden;
+}
+.img-container{
+    position: relative;
+    overflow: hidden;
+    top: 70px;
+    left: 50px;
+    
+}
+img{
+    width: 100%;
+}
+.layer{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.373);
+    height: 100%;
+    width: 100%;
+    top: 100%;
+    transition: all .5s;
+}
+.img-container:hover .layer{
+    top: 0;
+}
+.layer-border{
+
+    border: 35px solid black;
+    border-radius: 10px;
+}
+.layer-container{
+    width: 80%;
+    margin: auto;
+}
+.about-content{
+    width: 100%;
+    
+}
+.containing{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.buttoning{
+    
+    text-align: center;
+    
+    
+    
+}
+.buttoning button{
+    padding: 10px;
+    margin: 20px;
+    background-color: rgba(255, 0, 0, 0.377);
+    
+}
+.buttoning button:hover{
+    background-color: transparent;
+}
+.buttoning i{
+    padding-left: 5px;
+}
+
+.services{
+    padding-top: 85px;
+    margin-top: 50px;
+    background-color: rgba(128, 128, 128, 0.293);
+
+}
+.services h2{
+    text-align: center;
+    font-size: 30px;
+}
+.services .short-line{
+    width: 60px;
+    height: 3px;
+    background-color: rgba(255, 0, 0, 0.553);
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.services .long-line{
+    width: 130px;
+    height: 3px;
+    background-color: rgba(255, 0, 0, 0.553);
+    margin: auto;
+    border-radius: 5px;
+}
+.designing{
+    
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding-bottom: 75px;
+}
+.design1{
+    padding: 20px;
+    text-align: center;
+    transform-origin: center center;
+    
+}
+
+.design1 i {
+    font-size: 2rem;
+    transition: transform 1s ease;
+    color: rgba(255, 0, 0, 0.521);
+}
+
+
+.design1:hover i {
+    transform: scale(1.2);
+    
+}
+
+
+.design1:hover  {
+    background-color: white;
+    transition: all .5s;
+}
+
+.port{
+    padding-top: 85px;
+    margin-top: 50px;
+    
+
+}
+.port h2{
+    text-align: center;
+    font-size: 30px;
+}
+.port .short-line{
+    width: 60px;
+    height: 3px;
+    background-color: rgba(255, 0, 0, 0.553);
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.port .long-line{
+    width: 130px;
+    height: 3px;
+    background-color: rgba(255, 0, 0, 0.553);
+    margin: auto;
+    border-radius: 5px;
+}
+.navbaring {
+    
+    
+    width: 100%;
+    text-align: center;
+    
+
+}
+.linkof{
+    padding: 20px;
+    margin: 30px;
+}
+.linkof ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.linkof ul li a {
+    
+    text-decoration: none;
+    transition: 1s;
+    
+    margin: 20px;
+   
+}
+.linkof ul li:first-child a {
+    color: rgba(255, 0, 0, 0.793); 
+}
+
+ .linkof ul li a:hover {
+    background-color: rgba(255, 0, 0, 0.415);
+}
+
+
+
